@@ -12,14 +12,12 @@
 
 ## Getting Started
 
-1. **Clone the Repository**:  
-   ```bash
-   git clone https://github.com/AbdallhGamal19/Products-Builder.git
+1. **Clone the Repository**: git clone https://github.com/AbdallhGamal19/Products-Builder.git
 
-2. **Install Dependencies:npm install
-3. **Run the Application: npm run div
+2. **Install** Dependencies:npm install
+3. **Run the** Application: npm run div
 
-Technologies Used
-**Frontend: React.js
-**Language: TypeScript
-**UI **Framework: Tailwind UI
+**Technologies** Used
+**Frontend:** React.js
+**Language:** TypeScript
+**UI Framework:** Tailwind UI
