@@ -1,4 +1,4 @@
-#Products-Builder
+Products-Builder
 Products-Builder is an application designed to manage products with essential CRUD (Create, Read, Update, Delete) functionalities. You can easily add, delete, and update products, as well as categorize them and select colors for each product.
 
 Features
