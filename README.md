@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###Products-Builder
+Products-Builder is an application designed to manage products with essential CRUD (Create, Read, Update, Delete) functionalities. You can easily add, delete, and update products, as well as categorize them and select colors for each product.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Features
+Add Products: Easily add new products to the inventory.
+Delete Products: Remove unwanted or outdated products.
+Update Products: Edit product details as needed.
+Select Color: Choose a specific color for each product.
+Category Selection: Organize products by categories for easier management.
+Getting Started
+Clone the Repository: git clone <repository-url>
+Install Dependencies:npm install
+Run the Application: npm run div
+Usage
+Add a Product: Navigate to the 'Add Product' page, fill in product details, and save.
+Delete a Product: Go to the product list, select the product to delete, and confirm.
+Update a Product: Select a product to edit and make changes as required.
+Choose Color and Category: Customize each product by selecting a color and category.
+Technologies Used
+Frontend: React.js
+Language: TypeScript
+UI Framework: Tailwind UI
